@@ -49,7 +49,7 @@ const Funciones_admin = () => {
 
         if(datos.success){
             alert('Funcion eliminada')
-            window.location.reload()
+            navigate(0)
         }
         else{
             alert('No se puedo eliminar la funcion')
