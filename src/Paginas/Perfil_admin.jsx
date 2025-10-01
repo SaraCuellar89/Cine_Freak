@@ -38,7 +38,7 @@ const Pefil_admin = () => {
 
             if(datos.success){
                 alert('Funcion Creada')
-                window.location.reload()
+                navigate(0)
             }
             else{
                 alert(datos.message)
