@@ -23,7 +23,7 @@ const App = () => {
         <Route path="/Inicio_Sesion" element={<Inicio_sesion/>}/>  
         <Route path="/Perfil_Usuario" element={<Perfil_usuario/>}/>  
         <Route path="/Perfil_Administrador" element={<Perfil_admin/>}/> 
-        <Route path="/Funciones_Adminitrador" element={<Funciones_admin/>}/>   
+        <Route path="/Funciones_Administrador" element={<Funciones_admin/>}/>   
         <Route path="/Editar_Funcion/:id_funcion" element={<Editar_funcion/>}/>   
       </Routes>
     </BrowserRouter>
