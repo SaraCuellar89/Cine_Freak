@@ -50,7 +50,7 @@ const Encabezado = () => {
                         <Link to='/Funciones'><p>Funciones</p></Link>
                     )
                 ) : (
-                    <Link to='/Inicio_Sesion'><p>Iniciar Sesión</p></Link>
+                    <Link to='/Funciones'><p>Funciones</p></Link>
                 )}
 
 
