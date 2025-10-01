@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom"
+import { HashRouter, Routes, Route } from "react-router-dom"
 import Inicio from "./Paginas/Inicio";
 import Funciones from "./Paginas/Funciones";
 import Asientos from "./Paginas/Asientos";
@@ -12,8 +12,8 @@ import Funciones_admin from "./Paginas/Funciones_admin";
 import Editar_funcion from "./Paginas/Editar_funcion";
 
 const App = () => {
-  return(
-    <BrowserRouter>
+  return (
+    <HashRouter>
       <Routes>
         <Route path="/" element={<Inicio/>}/>
         <Route path="/Funciones" element={<Funciones/>}/>
@@ -26,7 +26,7 @@ const App = () => {
         <Route path="/Funciones_Administrador" element={<Funciones_admin/>}/>   
         <Route path="/Editar_Funcion/:id_funcion" element={<Editar_funcion/>}/>   
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   )
 }
 
