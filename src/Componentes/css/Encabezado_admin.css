@@ -1,0 +1,26 @@
+.contenedor_encabezado_admin{
+    background-color: var(--color_3);
+    width: 100%;
+    height: fit-content;
+    padding: 20px;
+    font-size: 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+    border: var(--border_1);
+}
+
+.contenedor_encabezado_admin > p{
+    font-size: 45px;
+}
+
+.contenedor_encabezado_admin > button{
+    background-color: var(--color_2);
+    color: var(--color_3);
+    font-size: 30px;
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: var(--border_4);
+    cursor: pointer;
+}

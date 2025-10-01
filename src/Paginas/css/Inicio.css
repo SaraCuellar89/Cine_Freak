@@ -1,0 +1,25 @@
+.contenedor_inicio{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 0px 3% 0px;
+}
+
+.contenedor_inicio > :nth-child(2){
+    background-color: var(--color_4);
+    width: 90%;
+    height: fit-content;
+    border-radius: 0px 0pc 15px 15px;
+    border: var(--border_1);
+    border-top: none;
+    padding: 40px 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px
+}

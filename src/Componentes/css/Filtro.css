@@ -1,0 +1,54 @@
+.contenedor_filtro{
+    background-color: var(--color_3);
+    width: 100%;
+    height: fit-content;
+    padding: 20px;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    border: var(--border_1);
+}
+
+.contenedor_filtro > form{
+    width: 100%;   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.contenedor_filtro > form > div{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contenedor_filtro > form > div > div{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor_filtro > form > div > div > select{
+    width: 50%;
+    font-size: 25px;
+    border-radius: 20px;
+    padding: 5px;
+    border: var(--border_2);
+}
+
+.contenedor_filtro > form > button{
+    background-color: var(--color_2);
+    color: var(--color_3);
+    font-size: 30px;
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: var(--border_4);
+    cursor: pointer;
+}
