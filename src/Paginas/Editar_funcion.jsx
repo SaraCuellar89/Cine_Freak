@@ -83,7 +83,7 @@ const Editar_funcion = () => {
 
         if(datos.success){
             alert('Funcion Editada')
-            navigate('/Funciones_Adminitrador')
+            navigate('/Funciones_Administrador')
         }
         else{
             alert('No se pudo editar la funcion')
