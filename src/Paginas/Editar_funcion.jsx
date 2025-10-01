@@ -98,7 +98,7 @@ const Editar_funcion = () => {
         if(!confirmar){
             return
         }
-        navigate('/Funciones_Adminitrador')
+        navigate('/Funciones_Administrador')
     }
 
 
