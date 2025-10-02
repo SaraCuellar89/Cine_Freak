@@ -34,7 +34,7 @@ const Formulario_registro = ({registrar, nombre, setNombre, correo, setCorreo, c
                     <select id="rol" value={rol} onChange={(e) => setRol(e.target.value)}>
                         <option value="" hidden>Seleccione</option>
                         <option value="Usuario">Usuario</option>
-                        <option value="Administrador">Administrador</option>
+                        {/* <option value="Administrador">Administrador</option> */}
                     </select>
                 </div>
 
