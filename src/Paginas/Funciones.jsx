@@ -63,11 +63,14 @@ const Funciones = () => {
 
             const datos = await res.json()
 
-            if(datos.success){
-                setFunciones(datos.data)
-            }
-            else{
-                alert('No se pudieron obtener los datos')
+            if (datos.success) {
+                if (datos.data && datos.data.length > 0) {
+                    setFunciones(datos.data);
+                } else {
+                    naviate(0)
+                }
+            } else {
+                alert('No se pudieron obtener los datos');
             }
         }
         catch(error){
