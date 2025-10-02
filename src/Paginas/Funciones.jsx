@@ -67,6 +67,7 @@ const Funciones = () => {
                 if (datos.data && datos.data.length > 0) {
                     setFunciones(datos.data);
                 } else {
+                    alert('No hay funciones en este centro comercial')
                     naviate(0)
                 }
             } else {
