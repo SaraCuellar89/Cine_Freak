@@ -14,16 +14,16 @@ const Carrusel = () => {
     ]
 
     const settings = {
-        dots: false,          // puntos de navegación abajo
-        infinite: true,      // se repite en loop
-        speed: 500,          // velocidad de transición
-        slidesToShow: 1,     // cuántos se muestran a la vez
-        slidesToScroll: 1,    // cuántos se mueven al hacer scroll
-        autoplay: true,       // 👈 se mueve solo
-        autoplaySpeed: 0,   // 👈 cada 2 segundos
-        speed: 10000,
-        cssEase: "linear", // transición continua más fluida
-        arrows: false
+        dots: true,              // Muestra los puntitos de navegación debajo del carrusel
+        infinite: true,          // Permite que el carrusel vuelva al inicio al llegar al último slide (bucle infinito)
+        speed: 800,            // Duración de la animación de transición entre slides (en milisegundos)
+        autoplay: true,          // Activa el desplazamiento automático de los slides
+        autoplaySpeed: 3000,        // Tiempo que el carrusel espera antes de pasar al siguiente slide (en milisegundos)
+        pauseOnHover: true,      // Pausa el autoplay cuando el usuario pasa el mouse sobre el carrusel
+        swipeToSlide: true,     // Si es true, permite arrastrar (swipe) libremente al siguiente slide con el dedo o mouse
+        arrows: true,            // Muestra las flechas izquierda/derecha para navegar manualmente
+        slidesToShow: 1,         // Cantidad de slides visibles al mismo tiempo
+        slidesToScroll: 1        // Cantidad de slides que avanza cada vez
     };
 
     return (
