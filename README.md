@@ -1,16 +1,27 @@
-# React + Vite
+<h1 align="center">🧟‍♀️ Freak</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<h2>📋 Descripción</h2>
+<p>
+  Este proyecto es una <strong>aplicación web</strong> para creada con React.js. 
+  Permite a los usuarios registrarse, iniciar sesión y reservar una función.
+</p>
 
-Currently, two official plugins are available:
+<h2>⚙️ Tecnologías Utilizadas</h2>
+<ul>
+  <li>React.js</li>
+  <li>CSS3</li>
+  <li>JavaScript (Node.js)</li>
+  <li>Express</li>
+  <li>MySQL</li>
+</ul>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<h2>Visita la pagina</h2>
+<p>
+  <a href="https://cine-freak.vercel.app/">¡Entra Aqui!</a>
+</p>
 
-## React Compiler
+<hr>
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+<p align="center">
+  Hecho con por <a href="https://github.com/SaraCuellar89">Sara Cuellar</a>
+</p>
