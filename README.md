@@ -2,7 +2,7 @@
 
 <h2>📋 Descripción</h2>
 <p>
-  Este proyecto es una <strong>aplicación web</strong> para creada con React.js. 
+  Este proyecto es una <strong>aplicación web</strong> creada con React.js. 
   Permite a los usuarios registrarse, iniciar sesión y reservar una función.
 </p>
 
